@@ -1,5 +1,5 @@
 name = "accessdenied"
-account_id = ""
+account_id = "ec795b01c440adebd485e46a76bd267f"
 workers_dev = false
 compatibility_date = "2024-11-25"
 main = "src/main.js"
@@ -12,7 +12,7 @@ routes = [
 # wrangler kv:namespace create IDENTITY_DYNAMIC_THEME_STORE
 
 [[kv_namespaces]] 
-binding = "IDENTITY_DYNAMIC_THEME_STORE"
+binding = "accessdenied"
 id = "5245c96488fc47b7a92615f20c781db5" # unique ID of the previously created namespace
 
 [vars]
@@ -22,7 +22,7 @@ ACCOUNT_ID = "ec795b01c440adebd485e46a76bd267f"
 ORGANIZATION_ID = "ec795b01c440adebd485e46a76bd267f"
 ORGANIZATION_NAME = "filipadamczak"
 DEBUG = "true"
-TARGET_GROUP = "admins" # Define the "special group" that you want to use for notification
+TARGET_GROUP = "" # Define the "special group" that you want to use for notification
 
 [site]
 bucket = "./build" 
