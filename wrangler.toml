@@ -17,9 +17,9 @@ id = "5245c96488fc47b7a92615f20c781db5" # unique ID of the previously created na
 
 [vars]
 # - BEARER_TOKEN (Defined with wrangler secret put)
-CORS_ORIGIN = "accessdenied.filipada.link/debug" # This should be the route pattern domain /debug (https://example.com/debug)
+CORS_ORIGIN = "https://accessdenied.filipada.link/debug" # This should be the route pattern domain /debug (https://example.com/debug)
 ACCOUNT_ID = "ec795b01c440adebd485e46a76bd267f"
-ORGANIZATION_ID = "ec795b01c440adebd485e46a76bd267f"
+# ORGANIZATION_ID = "ec795b01c440adebd485e46a76bd267f"
 ORGANIZATION_NAME = "filipadamczak"
 DEBUG = "true"
 TARGET_GROUP = "" # Define the "special group" that you want to use for notification
